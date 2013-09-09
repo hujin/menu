@@ -1,4 +1,3 @@
-
 .main-sub-nav-bg,.main-sub-nav2-bg{
 	height: 40px;
 	width:100%;
@@ -8,10 +7,10 @@
 .main-sub-nav-bg{
 	background: #bcc3cd;
 	background: -webkit-gradient(linear, left top, left bottom, from(#bcc3cd), to(#b1bac6));
-    background: -moz-linear-gradient(top, #bcc3cd, #b1bac6);
+    	background: -moz-linear-gradient(top, #bcc3cd, #b1bac6);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bcc3cd', endColorstr='#b1bac6');
-    background: -o-linear-gradient(top, #bcc3cd, #b1bac6);
-    background: linear-gradient(top, #bcc3cd, #b1bac6);
+    	background: -o-linear-gradient(top, #bcc3cd, #b1bac6);
+    	background: linear-gradient(top, #bcc3cd, #b1bac6);
 }
 
 .main-sub-nav2-bg{
