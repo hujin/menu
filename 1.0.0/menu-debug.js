@@ -2,7 +2,7 @@ define("menu",["$", "widget", "base", "class", "events","easing","./menu-debug.c
 	var $=require("$");
 	var Widget = require("widget");
 
-    require("./menu-debug.css");
+    	require("./menu-debug.css");
 	var Menu=Widget.extend({
         attrs: {
             
@@ -40,9 +40,6 @@ define("menu",["$", "widget", "base", "class", "events","easing","./menu-debug.c
             },
             // 是否包含 triggers，用于没有传入 triggers 时，是否自动生成的判断标准
             hasTriggers: true,
-            // 触发类型
-            triggerType: "hover",
-            // or 'click'
             // 触发延迟
             delay: 100,
             // 初始切换到哪个面板
